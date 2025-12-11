@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Wireless Mic MVP</string>
+    <string name="status_disconnected">Status: Disconnected</string>
+    <string name="status_connected">Status: Streaming</string>
+    <string name="btn_start_stream">Start Streaming</string>
+    <string name="btn_stop_stream">Stop Streaming</string>
+    <string name="output_device_label">Output Device: %s</string>
+    <string name="unknown_device">Unknown Device</string>
+    <string name="latency_label">Latency: %d ms</string>
+    <string name="volume_label">Volume</string>
+    <string name="mute_label">Mute</string>
+    <string name="btn_connect_device">Connect Device (Settings)</string>
+</resources>
