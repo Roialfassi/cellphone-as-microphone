@@ -18,10 +18,20 @@ output-metadata.json
 
 # IntelliJ
 *.iml
-.idea/
-misc.xml
-deploymentTargetDropDown.xml
-render.experimental.xml
+.idea/*
+# Keep essential IDE config for consistent builds
+!.idea/gradle.xml
+!.idea/misc.xml
+!.idea/compiler.xml
+!.idea/codeStyles/
+!.idea/inspectionProfiles/
+.idea/workspace.xml
+.idea/tasks.xml
+.idea/usage.statistics.xml
+.idea/dictionaries
+.idea/shelf
+.idea/deploymentTargetDropDown.xml
+.idea/render.experimental.xml
 
 # Keystore files
 *.jks
@@ -32,3 +42,4 @@ google-services.json
 
 # Android Profiling
 *.hprof
+/.idea
