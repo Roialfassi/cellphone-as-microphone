@@ -1,0 +1,16 @@
+# Local Properties Template
+# This file should NOT be committed to version control.
+# Each developer must create their own local.properties file.
+
+# Android SDK location (example paths - adjust for your system)
+# Windows:
+# sdk.dir=C\:\\Users\\YourUsername\\AppData\\Local\\Android\\Sdk
+#
+# macOS:
+# sdk.dir=/Users/YourUsername/Library/Android/sdk
+#
+# Linux:
+# sdk.dir=/home/YourUsername/Android/Sdk
+
+# Optional: Specify NDK location if using native code
+# ndk.dir=/path/to/ndk

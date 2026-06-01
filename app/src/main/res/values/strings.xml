@@ -1,13 +1,29 @@
 <resources>
-    <string name="app_name">Wireless Mic MVP</string>
+    <string name="app_name">Wireless Mic</string>
+    
+    <!-- Status -->
     <string name="status_disconnected">Status: Disconnected</string>
     <string name="status_connected">Status: Streaming</string>
-    <string name="btn_start_stream">Start Streaming</string>
-    <string name="btn_stop_stream">Stop Streaming</string>
-    <string name="output_device_label">Output Device: %s</string>
+    
+    <!-- Buttons -->
+    <string name="btn_start_stream">🎤 Start Streaming</string>
+    <string name="btn_stop_stream">⏹️ Stop Streaming</string>
+    <string name="btn_connect_device">🔊 Connect Bluetooth/Wired</string>
+    <string name="btn_stream_to_tv">📺 Stream to TV (WiFi)</string>
+    <string name="btn_disconnect_tv">❌ Disconnect from TV</string>
+    
+    <!-- Labels -->
+    <string name="output_device_label">Output: %s</string>
     <string name="unknown_device">Unknown Device</string>
     <string name="latency_label">Latency: %d ms</string>
     <string name="volume_label">Volume</string>
-    <string name="mute_label">Mute</string>
-    <string name="btn_connect_device">Connect Device (Settings)</string>
+    <string name="mute_label">🔇 Mute</string>
+    
+    <!-- Network -->
+    <string name="network_streaming_to">📡 Streaming to: %s</string>
+    <string name="searching_devices">Searching for devices…</string>
+    <string name="no_devices_found">No devices found</string>
+    
+    <!-- Help -->
+    <string name="help_text">Speak into your phone\'s microphone.\nAudio will play through the connected device.</string>
 </resources>
